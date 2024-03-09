@@ -1,7 +1,9 @@
 import { Clients } from './pages/Clients'
 import { Community } from './pages/Community'
 import { HeroSection } from './pages/HeroSection'
+import { Calender } from './pages/Calender/index'
 import { Header } from './pages/header'
+import { Unlock } from './pages/Unlock'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <HeroSection />
       <Clients />
       <Community />
+      <Unlock />
+      <Calender />
     </>
   )
 }
