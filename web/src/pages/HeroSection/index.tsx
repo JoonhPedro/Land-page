@@ -1,4 +1,4 @@
-import Illustrationimg from '../../assets/imagens/Illustrations.svg'
+import Illustrationimg from '../../assets/imagens/Header/Illustrations.svg'
 import {
   Container,
   Illustration,

@@ -6,18 +6,17 @@ export const Container = styled.div`
   align-items: center;
   gap: 11px;
 `
-export const ButtonLogin = styled.button`
+
+export const ButtonStyle = styled.button<{
+  variant: 'primary' | 'secondary'
+}>`
   height: auto;
   border: none;
-  background-color: transparent;
-  color: ${(props) => props.theme.primary};
+  padding: 8px 16px;
+  border-radius: 4px;
   cursor: pointer;
-`
-export const ButtonSignUp = styled.button`
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  color: ${(props) => props.theme.white};
-  background-color: ${(props) => props.theme.primary};
-  cursor: pointer;
+  background-color: ${(props) =>
+    props.variant === 'primary' ? props.theme.primary : 'transparent'};
+  color: ${(props) =>
+    props.variant === 'primary' ? props.theme.white : props.theme.primary};
 `

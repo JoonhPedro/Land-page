@@ -1,6 +1,6 @@
 import React from 'react'
-import LogoNexcent from '../../assets/imagens/Logo.svg'
-import Button from '../../components/Button'
+import LogoNexcent from '../../assets/imagens/Header/Logo.svg'
+import ButtonStyle from '../../components/Button'
 import { Container, Logo, Nav, NavLink } from './styles'
 
 export interface HeaderProps {
@@ -27,7 +27,10 @@ export const Header: React.FC<HeaderProps> = () => {
           </NavLink>
         ))}
       </Nav>
-      <Button />
+      <div>
+        <ButtonStyle variant="secondary"> login </ButtonStyle>
+        <ButtonStyle variant="primary"> register </ButtonStyle>
+      </div>
     </Container>
   )
 }
