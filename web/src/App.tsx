@@ -1,9 +1,10 @@
+import { Achievements } from './pages/Achievements'
+import { Calender } from './pages/Calender/index'
 import { Clients } from './pages/Clients'
 import { Community } from './pages/Community'
 import { HeroSection } from './pages/HeroSection'
-import { Calender } from './pages/Calender/index'
-import { Header } from './pages/header'
 import { Unlock } from './pages/Unlock'
+import { Header } from './pages/header'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Clients />
       <Community />
       <Unlock />
+      <Achievements />
       <Calender />
     </>
   )
