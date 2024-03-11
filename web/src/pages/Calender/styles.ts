@@ -4,10 +4,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 200px;
   padding: 50px;
-  background: ${(props) => props.theme['neutral-Silver']};
-  border: 1px solid red;
 `
 export const LoginImg = styled.img``
 
