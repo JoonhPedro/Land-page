@@ -42,7 +42,6 @@ export const Header: React.FC<HeaderProps> = () => {
       style={{ backgroundColor: scrolled ? '#263238' : '#F5F7FA' }}
     >
       <Logo src={scrolled ? LogoScrolled : LogoNexcent} alt="Logo" />{' '}
-      {/* Alterna entre os logotipos com base no estado de rolagem */}
       <Nav>
         {navLinks.map((link, index) => (
           <NavLink
