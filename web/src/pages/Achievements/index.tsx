@@ -1,4 +1,4 @@
-import { cardData } from '../../pagesDTO/AchievementsDTO'
+import { cardData } from '../../PagesDate/AchievementsDTO'
 import {
   Card,
   CardText,
@@ -8,7 +8,7 @@ import {
   Description,
   Heading,
   Title,
-} from './styles'
+} from './styles.ts'
 
 export function Achievements() {
   return (
@@ -28,7 +28,7 @@ export function Achievements() {
               <img src={card.logo} alt="logo" />
             </Cardlogo>
             <CardText>
-              <h2>{card.title}</h2>
+              <h2> {card.title}</h2>
               <p>{card.description}</p>
             </CardText>
           </Card>

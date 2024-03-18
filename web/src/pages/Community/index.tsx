@@ -1,4 +1,4 @@
-import { cardData } from '../../pagesDTO/ComuunityDTO'
+import { cardData } from '../../PagesDate/ComuunityDTO'
 import { Card, Cards, CommunityDiv, Container, Text, Title } from './styles'
 export function Community() {
   return (

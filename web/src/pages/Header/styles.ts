@@ -7,6 +7,11 @@ export const Container = styled.header`
   justify-content: space-around;
   align-items: center;
   background: ${(props) => props.theme['neutral-Silver']};
+  position: fixed;
+  z-index: 1;
+  transition: background-color 0.5s ease-in-out;
+  top: 0;
+  left: 0;
 `
 export const Nav = styled.nav`
   display: flex;
@@ -14,7 +19,6 @@ export const Nav = styled.nav`
   align-items: center;
   gap: 40px;
   height: 100%;
-  width: 300px;
 `
 export const Logo = styled.img`
   height: 20px;
@@ -28,4 +32,7 @@ export const NavLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
+`
+export const Colordefault = styled.div`
+  background: blue;
 `
