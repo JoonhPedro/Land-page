@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import LogoNexcent from '../../assets/imagens/Header/Logo.svg'
-import LogoScrolled from '../../assets/imagens/Header/logowhite.svg' // Importe a imagem do logotipo rolado
+import LogoScrolled from '../../assets/imagens/Header/logowhite.svg'
 import ButtonStyle from '../../components/Button'
 import { Container, Logo, Nav, NavLink } from './styles'
 
-interface HeaderProps {
+export interface HeaderProps {
   navLinks: { title: string; href: string }[]
 }
 
@@ -35,12 +35,12 @@ export const Header: React.FC<HeaderProps> = () => {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
+  const scrolledBackground = {
+    backgroundColor: scrolled ? '#263238' : '#F5F7FA',
+  }
 
   return (
-    <Container
-      id="navbar"
-      style={{ backgroundColor: scrolled ? '#263238' : '#F5F7FA' }}
-    >
+    <Container id="navbar" style={scrolledBackground}>
       <Logo src={scrolled ? LogoScrolled : LogoNexcent} alt="Logo" />{' '}
       <Nav>
         {navLinks.map((link, index) => (

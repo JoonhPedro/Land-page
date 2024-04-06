@@ -1,6 +1,6 @@
-import Logo1 from '../assets/imagens/CardsCommunity/Logo1.svg'
-import Logo2 from '../assets/imagens/CardsCommunity/Logo2.svg'
-import Logo3 from '../assets/imagens/CardsCommunity/Logo3.svg'
+import Logo1 from '../../assets/imagens/CardsCommunity/Logo1.svg'
+import Logo2 from '../../assets/imagens/CardsCommunity/Logo2.svg'
+import Logo3 from '../../assets/imagens/CardsCommunity/Logo3.svg'
 
 export const cardData = [
   {

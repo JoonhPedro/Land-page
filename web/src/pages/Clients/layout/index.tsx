@@ -1,4 +1,4 @@
-import { clientData } from '../../PagesDate/ClientDTO'
+import { clientData } from '../index'
 import { ClientText, ClientTitle, ClientsDiv, Container } from './styles'
 
 export function Clients() {

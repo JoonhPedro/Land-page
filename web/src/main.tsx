@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { ThemeProvider } from 'styled-components'
-import App from './App.tsx'
+import App from './App'
 import { defaultTheme } from './styles/themes/default'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -1,7 +1,7 @@
-import Logo1 from '../assets/imagens/Achievements/logo1.svg'
-import Logo2 from '../assets/imagens/Achievements/image.png'
-import Logo3 from '../assets/imagens/Achievements/logo3.svg'
-import Logo4 from '../assets/imagens/Achievements/logo4.svg'
+import Logo1 from '../../assets/imagens/Achievements/logo1.svg'
+import Logo2 from '../../assets/imagens/Achievements/image.png'
+import Logo3 from '../../assets/imagens/Achievements/logo3.svg'
+import Logo4 from '../../assets/imagens/Achievements/logo4.svg'
 export const cardData = [
   {
     title: '2,245,341',

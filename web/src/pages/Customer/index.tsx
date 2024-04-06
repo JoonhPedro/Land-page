@@ -1,6 +1,6 @@
 import icon from '../../assets/imagens/Customer/icon.svg'
 import { ButtonStyle } from '../../components/Button/styles'
-import { clientData } from '../../PagesDate/ClientDTO'
+import { clientData } from '../Clients/index'
 import { Container, Customers, Description, Infos, Title } from './styles'
 
 export function Customer() {

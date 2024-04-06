@@ -12,6 +12,9 @@ export const Container = styled.header`
   transition: background-color 0.5s ease-in-out;
   top: 0;
   left: 0;
+  button:hover {
+    opacity: 0.9;
+  }
 `
 export const Nav = styled.nav`
   display: flex;

@@ -1,4 +1,4 @@
-import { cardData } from '../../PagesDate/AchievementsDTO'
+import { cardData } from '../index.ts'
 import {
   Card,
   CardText,
