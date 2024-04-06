@@ -4,24 +4,25 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 200px;
   padding: 50px;
-  background: ${(props) => props.theme['neutral-Silver']};
 `
+export const LoginImg = styled.img``
 
-export const Infos = styled.div`
+export const Conteudo = styled.div`
   height: auto;
   width: 500px;
+
+  button {
+    padding: 15px 20px 15px 20px;
+  }
 `
-export const InfosTitle = styled.h1`
+export const Title = styled.h1`
   color: white;
   font-size: 3rem;
   color: ${(props) => props.theme['neutral-D_grey']};
-  span {
-    color: ${(props) => props.theme.primary};
-  }
 `
-export const InfosText = styled.p`
+export const Text = styled.p`
   color: ${(props) => props.theme['neutral-grey']};
 `
 export const RegisterButton = styled.button`
@@ -32,5 +33,3 @@ export const RegisterButton = styled.button`
   color: ${(props) => props.theme.white};
   background-color: ${(props) => props.theme.primary};
 `
-
-export const Illustration = styled.img``
