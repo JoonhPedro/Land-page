@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Description = styled.div`
   text-align: center;
   width: 600px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   button {
     font-size: 1rem;
     padding: 1rem;

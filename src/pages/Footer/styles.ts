@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
   padding: 5rem;
   background-color: ${(props) => props.theme['neutral-black']};
 `
@@ -21,12 +20,13 @@ export const Logo = styled.img`
 export const Text = styled.p`
   color: ${(props) => props.theme['neutral-Silver']};
   width: 12rem;
-  padding: 20px 0px;
+  padding: 30px 0px;
 `
 
 export const SocialIcons = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  padding-top: 10px;
 `
 
 export const Icon = styled.img`
@@ -36,32 +36,29 @@ export const Icon = styled.img`
     opacity: 0.6;
   }
 `
+export const Title = styled.h3`
+  padding: 20px 0;
+  font-size: 1.5rem;
+  color: ${(props) => props.theme['neutral-White']};
+`
 
 export const Links = styled.div`
   display: flex;
   flex-direction: column;
-
+  width: 120px;
   a {
-    margin-bottom: 5px;
-  }
-`
-
-export const Support = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  a {
-    margin-bottom: 5px;
+    color: ${(props) => props.theme['neutral-Silver']};
+    padding-bottom: 10px;
+    text-decoration: none;
+    &:hover {
+      color: ${(props) => props.theme['neutral-grey-blue']};
+    }
   }
 `
 
 export const InputContainer = styled.div`
   display: flex;
   align-items: center;
-`
-
-export const Title = styled.h3`
-  margin-bottom: 10px;
 `
 
 export const Input = styled.input`

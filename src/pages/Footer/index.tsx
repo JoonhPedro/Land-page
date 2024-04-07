@@ -12,7 +12,6 @@ import {
   Links,
   Logo,
   SocialIcons,
-  Support,
   Text,
   Title,
 } from './styles'
@@ -34,19 +33,21 @@ const Footer: React.FC = () => {
       </Column>
       <Column>
         <Links>
+          <Title>Company</Title>
           <a href="#">Sobre</a>
           <a href="#">Produtos</a>
           <a href="#">Serviços</a>
         </Links>
       </Column>
       <Column>
-        <Support>
+        <Links>
+          <Title>Support</Title>
           <a href="#">Central de Ajuda</a>
           <a href="#">Contato</a>
-        </Support>
+        </Links>
       </Column>
       <Column>
-        <Title>Assine nossa newsletter</Title>
+        <Title>Stay up to date</Title>
         <InputContainer>
           <Input type="email" placeholder="Digite seu e-mail" />
           <button>Assinar</button>
