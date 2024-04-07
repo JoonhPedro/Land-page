@@ -23,6 +23,7 @@ export const InfosTitle = styled.h1`
 `
 export const InfosText = styled.p`
   color: ${(props) => props.theme['neutral-grey']};
+  padding: 30px 0px 20px;
 `
 export const RegisterButton = styled.button`
   padding: 15px 20px 15px 20px;

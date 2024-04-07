@@ -13,6 +13,7 @@ export const Description = styled.div`
 `
 export const Infos = styled.p`
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 15px 0;
 `
 
 export const Title = styled.h2`

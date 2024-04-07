@@ -10,6 +10,7 @@ export const CommunityDiv = styled.div`
 
 export const Title = styled.h1`
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 20px;
 `
 
 export const Text = styled.p`
@@ -21,7 +22,7 @@ export const Cards = styled.div`
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 50px;
+  padding: 70px;
   font-weight: bold;
   span {
     position: relative;
@@ -32,7 +33,7 @@ export const Cards = styled.div`
 
 export const Card = styled.div`
   padding: 30px;
-  width: 200px;
+  width: 260px;
   background-color: #f2f2f2;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
