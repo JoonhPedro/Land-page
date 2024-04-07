@@ -25,6 +25,7 @@ export const Cards = styled.div`
   gap: 50px;
   padding: 70px;
   font-weight: bold;
+  flex-wrap: wrap;
 `
 export const IconNavagiton = styled(BiLogInCircle)`
   position: relative;

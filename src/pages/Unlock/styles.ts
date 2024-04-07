@@ -5,13 +5,22 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 200px;
-  padding: 50px;
+  @media screen and (max-width: 933px) {
+    img {
+      display: none;
+    }
+    h1 {
+      font-size: 1.7rem;
+    }
+    padding: 50px;
+  }
 `
 export const LoginImg = styled.img``
 
 export const Conteudo = styled.div`
   height: auto;
   width: 500px;
+  padding-bottom: 20px;
   button {
     padding: 15px 20px;
     transition: 0.3s ease;
