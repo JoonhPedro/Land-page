@@ -12,19 +12,33 @@ export const LoginImg = styled.img``
 export const Conteudo = styled.div`
   height: auto;
   width: 500px;
-
   button {
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px;
+    transition: 0.3s ease;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
   }
 `
+
 export const Title = styled.h1`
   color: white;
   font-size: 3rem;
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 30px 0px;
 `
+
 export const Text = styled.p`
   color: ${(props) => props.theme['neutral-grey']};
+  padding-bottom: 15px;
 `
+
 export const RegisterButton = styled.button`
   padding: 15px 20px 15px 20px;
   border: none;

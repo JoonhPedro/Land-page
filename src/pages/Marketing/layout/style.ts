@@ -1,3 +1,4 @@
+import { BiLogInCircle } from 'react-icons/bi'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -10,6 +11,7 @@ export const CommunityDiv = styled.div`
 
 export const Title = styled.h1`
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 20px;
 `
 
 export const Text = styled.p`
@@ -21,21 +23,27 @@ export const Cards = styled.div`
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 50px;
+  padding: 70px;
   font-weight: bold;
-  span {
-    position: relative;
-    left: 5px;
-    top: 8px;
-  }
+`
+export const IconNavagiton = styled(BiLogInCircle)`
+  position: relative;
+  top: 5px;
+  left: 5px;
 `
 
 export const Card = styled.div`
   padding: 30px;
-  width: 200px;
+  width: 260px;
   background-color: #f2f2f2;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  button {
+    &:hover {
+      text-decoration: none;
+      color: ${(props) => props.theme['neutral-D_grey']};
+    }
+  }
 
   h1 {
     font-size: 1.8rem;

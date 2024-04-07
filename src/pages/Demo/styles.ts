@@ -9,9 +9,20 @@ export const Container = styled.div`
 export const Description = styled.div`
   text-align: center;
   width: 600px;
+  padding-bottom: 40px;
   button {
     font-size: 1rem;
     padding: 1rem;
+    transition: 0.3s;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
   }
   span {
     position: relative;

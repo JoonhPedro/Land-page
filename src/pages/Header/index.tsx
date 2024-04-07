@@ -11,12 +11,12 @@ export const Header: React.FC<HeaderProps> = () => {
   const [scrolled, setScrolled] = useState(false) // Estado para controlar o scroll
 
   const navLinks = [
-    { title: 'Home', href: '#' },
-    { title: 'Service', href: '#' },
-    { title: 'Feature', href: '#' },
-    { title: 'Product', href: '#' },
-    { title: 'Testimonial', href: '#' },
-    { title: 'FAQ', href: '#' },
+    { title: 'Home', href: '' },
+    { title: 'Service', href: '#Clients' },
+    { title: 'Feature', href: '#Community' },
+    { title: 'Testimonial', href: '#Testimonial' },
+    { title: 'Product', href: '#Product' },
+    { title: 'FAQ', href: 'https://www.google.com/test' },
   ]
 
   useEffect(() => {

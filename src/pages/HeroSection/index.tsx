@@ -1,12 +1,6 @@
 import Illustrationimg from '../../assets/imagens/Header/Illustrations.svg'
-import {
-  Container,
-  Illustration,
-  Infos,
-  InfosText,
-  InfosTitle,
-  RegisterButton,
-} from './styles'
+import { ButtonStyle } from '../../components/Button/styles'
+import { Container, Illustration, Infos, InfosText, InfosTitle } from './styles'
 
 export function HeroSection() {
   return (
@@ -19,7 +13,9 @@ export function HeroSection() {
           <InfosText>
             Where to grow your business as a photographer: site or social media?
           </InfosText>
-          <RegisterButton>Register</RegisterButton>
+          <ButtonStyle variant="primary">
+            <a href="https://www.google.com/test"> Register</a>
+          </ButtonStyle>
         </Infos>
         <Illustration src={Illustrationimg} />
       </Container>

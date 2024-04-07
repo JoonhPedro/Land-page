@@ -1,7 +1,14 @@
 import { ButtonStyle } from '../../../components/Button/styles.ts'
 import { cardData } from '../index.ts'
-import icon from '../../../assets/imagens/Customer/icon.svg'
-import { Card, Cards, CommunityDiv, Container, Text, Title } from './style.ts'
+import {
+  Card,
+  Cards,
+  CommunityDiv,
+  Container,
+  IconNavagiton,
+  Text,
+  Title,
+} from './style.ts'
 export function Marketing() {
   return (
     <>
@@ -19,9 +26,7 @@ export function Marketing() {
               <Text>{card.title}</Text>
               <ButtonStyle variant={'secondary'}>
                 ReadMore
-                <span>
-                  <img src={icon} alt="icon" />
-                </span>
+                <IconNavagiton size={20} />
               </ButtonStyle>
             </Card>
           ))}
