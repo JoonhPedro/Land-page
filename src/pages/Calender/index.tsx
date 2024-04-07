@@ -18,7 +18,9 @@ export function Calender() {
           quis massa. Praesent felis est, finibus et nisi ac, hendrerit
           venenatis libero. Donec consectetur faucibus ipsum id gravida.
         </Text>
-        <ButtonStyle variant="primary">Learn More</ButtonStyle>
+        <ButtonStyle variant="primary">
+          <a href="https://www.google.com/test"> Learn More</a>
+        </ButtonStyle>
       </Conteudo>
     </Container>
   )

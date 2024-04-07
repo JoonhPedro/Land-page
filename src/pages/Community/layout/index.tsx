@@ -3,7 +3,7 @@ import { Card, Cards, CommunityDiv, Container, Text, Title } from './styles'
 export function Community() {
   return (
     <>
-      <Container>
+      <Container id="Community">
         <CommunityDiv>
           <Title>Manage your entire community in a single system</Title>
           <Text>Who is Nextcent suitable for?</Text>

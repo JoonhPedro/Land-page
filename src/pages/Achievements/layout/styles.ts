@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 120px;
-  padding: 50px;
+  padding: 65px;
   background: ${(props) => props.theme['neutral-Silver']};
 `
 export const Heading = styled.div`
@@ -16,6 +16,7 @@ export const Title = styled.h1`
   color: white;
   font-size: 3rem;
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding-bottom: 30px;
   span {
     color: ${(props) => props.theme.primary};
   }
@@ -36,8 +37,7 @@ export const Card = styled.div`
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: right;
-  padding: 10px 10px 10px;
-  height: 50px;
+  padding: 10px;
 `
 export const Cardlogo = styled.div`
   display: flex;
@@ -52,7 +52,6 @@ export const CardText = styled.div`
   display: block;
   text-align: left;
   p {
-    margin-top: -15px;
     font-size: 1.2rem;
   }
 `

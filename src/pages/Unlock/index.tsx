@@ -16,7 +16,9 @@ export function Unlock() {
           Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
           elementum pulvinar odio.
         </Text>
-        <ButtonStyle variant="primary">Learn More</ButtonStyle>
+        <ButtonStyle variant="primary">
+          <a href="https://www.google.com/test"> Learn More</a>
+        </ButtonStyle>
       </Conteudo>
     </Container>
   )

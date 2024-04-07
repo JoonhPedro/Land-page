@@ -6,6 +6,8 @@ export const Container = styled.div`
 `
 export const ClientTitle = styled.h1`
   color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 20px;
+  padding-top: 56px;
 `
 export const ClientText = styled.p`
   color: ${(props) => props.theme['neutral-grey']};
