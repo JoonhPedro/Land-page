@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import LogoNexcent from '../../assets/imagens/Header/Logo.svg'
 import LogoScrolled from '../../assets/imagens/Header/logowhite.svg'
-import ButtonStyle from '../../components/Button'
 import { Container, Logo, Nav, NavLink } from './styles'
 
 export interface HeaderProps {
@@ -53,10 +52,6 @@ export const Header: React.FC<HeaderProps> = () => {
           </NavLink>
         ))}
       </Nav>
-      <div>
-        <ButtonStyle variant="secondary"> Login </ButtonStyle>
-        <ButtonStyle variant="primary"> Register </ButtonStyle>
-      </div>
     </Container>
   )
 }
