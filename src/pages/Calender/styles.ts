@@ -6,6 +6,15 @@ export const Container = styled.div`
   align-items: center;
   gap: 200px;
   padding: 50px;
+  @media screen and (max-width: 933px) {
+    img {
+      display: none;
+    }
+    h1 {
+      font-size: 1.7rem;
+    }
+    padding: 50px;
+  }
 `
 export const LoginImg = styled.img``
 

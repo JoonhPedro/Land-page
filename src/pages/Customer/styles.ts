@@ -35,6 +35,9 @@ export const Customers = styled.div`
       color: ${(props) => props.theme['neutral-D_grey']};
     }
   }
+  @media screen and (max-width: 702px) {
+    display: none;
+  }
 `
 export const IconNavagiton = styled(BiLogInCircle)`
   position: relative;

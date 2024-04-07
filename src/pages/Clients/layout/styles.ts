@@ -17,5 +17,11 @@ export const ClientsDiv = styled.div`
   align-items: center;
   justify-content: center;
   gap: 150px;
-  padding: 40px 0px 40px 10px;
+  padding: 50px 0px 40px 10px;
+  @media screen and (max-width: 1236px) {
+    gap: 100px;
+  }
+  @media screen and (max-width: 974px) {
+    gap: 4px;
+  }
 `

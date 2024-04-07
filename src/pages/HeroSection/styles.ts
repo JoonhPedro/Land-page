@@ -32,6 +32,14 @@ export const Infos = styled.div`
     left: 7px;
     top: 2.4px;
   }
+
+  @media screen and (max-width: 795px) {
+    padding-top: 40px;
+    text-align: center;
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
 `
 export const InfosTitle = styled.h1`
   color: white;
@@ -46,4 +54,11 @@ export const InfosText = styled.p`
   padding: 30px 0px 20px;
 `
 
-export const Illustration = styled.img``
+export const Illustration = styled.img`
+  @media screen and (max-width: 1500px) {
+    height: 200px;
+  }
+  @media screen and (max-width: 795px) {
+    display: none;
+  }
+`
