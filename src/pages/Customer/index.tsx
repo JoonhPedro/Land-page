@@ -21,10 +21,6 @@ export function Customer() {
             enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit
             at ligula molestie, nec molestie mi blandit. Suspendisse cursus
             tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse
-            eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
-            Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
-            Quisque vulputate odio neque, eget efficitur libero condimentum id.
-            Curabitur id nibh id sem dignissim finibus ac sit amet magna.
           </Infos>
           <Title>Tim Smith</Title>
           <Infos>British Dragon Boat Racing Association</Infos>

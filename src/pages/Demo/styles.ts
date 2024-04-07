@@ -1,3 +1,4 @@
+import { BiLogInCircle } from 'react-icons/bi'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -11,9 +12,10 @@ export const Description = styled.div`
   width: 600px;
   padding-bottom: 40px;
   button {
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 0.9rem;
+    padding: 5px 20px;
     transition: 0.3s;
+    line-height: 2;
     a {
       text-decoration: none;
       color: #fff;
@@ -24,11 +26,19 @@ export const Description = styled.div`
       transform: scale(1.1);
     }
   }
-  span {
-    position: relative;
-    left: 7px;
-    top: 2.4px;
+
+  @media screen and (max-width: 400px) {
+    padding-top: 40px;
+    text-align: center;
+    h1 {
+      font-size: 1.4rem;
+    }
   }
+`
+export const IconNavagiton = styled(BiLogInCircle)`
+  position: relative;
+  top: 5px;
+  left: 5px;
 `
 export const Title = styled.h1`
   font-size: 3rem;

@@ -6,6 +6,18 @@ export const FooterContainer = styled.footer`
   grid-template-columns: repeat(4, 1fr);
   padding: 5rem;
   background-color: ${(props) => props.theme['neutral-black']};
+  @media screen and (max-width: 1183px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 643px) {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
 `
 
 export const Column = styled.div`

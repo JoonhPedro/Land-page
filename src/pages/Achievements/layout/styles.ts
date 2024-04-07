@@ -4,9 +4,15 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
-  padding: 65px;
+  gap: 60px;
+  padding: 50px;
   background: ${(props) => props.theme['neutral-Silver']};
+  flex-wrap: wrap;
+  @media screen and (max-width: 933px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
 `
 export const Heading = styled.div`
   background: 1px solid red;
@@ -38,6 +44,9 @@ export const Card = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: right;
   padding: 10px;
+  @media screen and (max-width: 933px) {
+    padding: 5px 10px;
+  }
 `
 export const Cardlogo = styled.div`
   display: flex;
