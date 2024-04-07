@@ -1,12 +1,18 @@
-import icon from '../../assets/imagens/Customer/icon.svg'
 import { ButtonStyle } from '../../components/Button/styles'
 import { clientData } from '../Clients/index'
-import { Container, Customers, Description, Infos, Title } from './styles'
+import {
+  Container,
+  Customers,
+  Description,
+  IconNavagiton,
+  Infos,
+  Title,
+} from './styles'
 
 export function Customer() {
   return (
     <>
-      <Container>
+      <Container id="Testimonial">
         <Description>
           <Infos>
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
@@ -30,9 +36,7 @@ export function Customer() {
             ))}
             <ButtonStyle variant="secondary">
               Meet all customers
-              <span>
-                <img src={icon} alt="icon" />
-              </span>
+              <IconNavagiton size={20} />
             </ButtonStyle>
           </Customers>
         </Description>

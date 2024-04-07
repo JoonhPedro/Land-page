@@ -32,8 +32,11 @@ export const NavLink = styled.a`
   font-size: 1rem;
   color: black;
   cursor: pointer;
+  transition: 0.2s ease;
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 0.7;
+    transform: scale(1.2);
   }
 `
 export const Colordefault = styled.div`

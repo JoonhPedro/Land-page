@@ -3,7 +3,7 @@ import { ClientText, ClientTitle, ClientsDiv, Container } from './styles'
 
 export function Clients() {
   return (
-    <Container>
+    <Container id="Clients">
       <ClientTitle>Our Clients</ClientTitle>
       <ClientText>
         We have been working with some Fortune 500+ clients

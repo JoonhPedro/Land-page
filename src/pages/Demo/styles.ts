@@ -13,6 +13,16 @@ export const Description = styled.div`
   button {
     font-size: 1rem;
     padding: 1rem;
+    transition: 0.3s;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
   }
   span {
     position: relative;

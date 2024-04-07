@@ -12,6 +12,7 @@ export const CommunityDiv = styled.div`
 export const Title = styled.h1`
   color: ${(props) => props.theme['neutral-D_grey']};
   padding: 20px;
+  padding-top: 60px;
 `
 
 export const Text = styled.p`

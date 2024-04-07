@@ -12,6 +12,26 @@ export const Container = styled.div`
 export const Infos = styled.div`
   height: auto;
   width: 500px;
+
+  button {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    transition: 0.3s;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+  }
+  span {
+    position: relative;
+    left: 7px;
+    top: 2.4px;
+  }
 `
 export const InfosTitle = styled.h1`
   color: white;
@@ -24,14 +44,6 @@ export const InfosTitle = styled.h1`
 export const InfosText = styled.p`
   color: ${(props) => props.theme['neutral-grey']};
   padding: 30px 0px 20px;
-`
-export const RegisterButton = styled.button`
-  padding: 15px 20px 15px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  color: ${(props) => props.theme.white};
-  background-color: ${(props) => props.theme.primary};
 `
 
 export const Illustration = styled.img``

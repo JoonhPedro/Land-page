@@ -1,3 +1,4 @@
+import { BiNavigation } from 'react-icons/bi'
 import styled from 'styled-components'
 
 export const FooterContainer = styled.footer`
@@ -34,6 +35,7 @@ export const Icon = styled.img`
   transition: 0.3s;
   &:hover {
     opacity: 0.6;
+    transform: scale(1.2);
   }
 `
 export const Title = styled.h3`
@@ -46,13 +48,14 @@ export const Links = styled.div`
   display: flex;
   flex-direction: column;
   width: 120px;
-  a {
-    color: ${(props) => props.theme['neutral-Silver']};
-    padding-bottom: 10px;
-    text-decoration: none;
-    &:hover {
-      color: ${(props) => props.theme['neutral-grey-blue']};
-    }
+`
+
+export const Link = styled.a`
+  color: ${(props) => props.theme['neutral-Silver']};
+  padding-bottom: 10px;
+  text-decoration: none;
+  &:hover {
+    color: ${(props) => props.theme['neutral-grey-blue']};
   }
 `
 
@@ -60,8 +63,18 @@ export const InputContainer = styled.div`
   display: flex;
   align-items: center;
 `
+export const IconNavagiton = styled(BiNavigation)`
+  position: relative;
+  right: 30px;
+  cursor: pointer;
+  z-index: 3;
+`
 
 export const Input = styled.input`
-  padding: 5px;
-  margin-right: 10px;
+  background-color: ${(props) => props.theme['neutral-D_grey']};
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 6px;
+  color: ${(props) => props.theme['neutral-White']};
 `

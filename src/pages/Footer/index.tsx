@@ -7,8 +7,10 @@ import {
   Column,
   FooterContainer,
   Icon,
+  IconNavagiton,
   Input,
   InputContainer,
+  Link,
   Links,
   Logo,
   SocialIcons,
@@ -34,23 +36,26 @@ const Footer: React.FC = () => {
       <Column>
         <Links>
           <Title>Company</Title>
-          <a href="#">Sobre</a>
-          <a href="#">Produtos</a>
-          <a href="#">Serviços</a>
+          <Link href="#">Home</Link>
+          <Link href="#Clients">Service</Link>
+          <Link href="#Community">Feature</Link>
+          <Link href="#Testimonial">Testimonial</Link>
+          <Link href="#Product">Product</Link>
+          <Link href="https://www.google.com/test">FAQ</Link>
         </Links>
       </Column>
       <Column>
         <Links>
           <Title>Support</Title>
-          <a href="#">Central de Ajuda</a>
-          <a href="#">Contato</a>
+          <Link href="https://www.google.com/test">Central de Ajuda</Link>
+          <Link href="https://www.google.com/test">Contato</Link>
         </Links>
       </Column>
       <Column>
         <Title>Stay up to date</Title>
         <InputContainer>
           <Input type="email" placeholder="Digite seu e-mail" />
-          <button>Assinar</button>
+          <IconNavagiton size={20} color="#fff" />
         </InputContainer>
       </Column>
     </FooterContainer>
