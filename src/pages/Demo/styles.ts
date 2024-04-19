@@ -31,7 +31,7 @@ export const Description = styled.div`
     padding-top: 40px;
     text-align: center;
     h1 {
-      font-size: 1.4rem;
+      font-size: 1rem;
     }
   }
 `
