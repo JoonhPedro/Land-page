@@ -28,7 +28,6 @@ export const Nav = styled.nav`
   gap: 40px;
 
   @media screen and (max-width: 768px) {
-    display: ${(props) => (props.isOpen ? 'flex' : 'none')};
     flex-direction: column;
     position: absolute;
     top: 50px;
