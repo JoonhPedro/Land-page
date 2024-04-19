@@ -15,11 +15,9 @@ export const Container = styled.div`
   }
 `
 export const Heading = styled.div`
-  background: 1px solid red;
   width: 470px;
 `
 export const Title = styled.h1`
-  color: white;
   font-size: 3rem;
   color: ${(props) => props.theme['neutral-D_grey']};
   padding-bottom: 30px;
@@ -46,11 +44,14 @@ export const Card = styled.div`
   padding: 10px;
   @media screen and (max-width: 933px) {
     padding: 5px 10px;
+    p {
+      font-size: 0.5rem;
+    }
   }
 `
 export const Cardlogo = styled.div`
   display: flex;
-  width: 60px;
+  width: auto;
   justify-content: center;
   align-self: center;
   img {
