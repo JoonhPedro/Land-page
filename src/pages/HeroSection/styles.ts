@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 50px;
+  padding: 70px;
   background: ${(props) => props.theme['neutral-Silver']};
 `
 
