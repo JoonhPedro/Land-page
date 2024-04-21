@@ -5,6 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 200px;
+  padding: 50px;
   @media screen and (max-width: 933px) {
     img {
       display: none;
