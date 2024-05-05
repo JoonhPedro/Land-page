@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import LogoNexcent from '../../assets/imagens/Header/Logo.svg'
 import LogoScrolled from '../../assets/imagens/Header/logowhite.svg'
-import { Container, Logo, Nav, NavLink } from './styles'
-import { MenuIcon } from './styles' // Importe o MenuIcon
+import { Container, Logo, Nav, NavLink, MenuIcon } from './styles'
 
 export interface HeaderProps {
   navLinks: { title: string; href: string }[]

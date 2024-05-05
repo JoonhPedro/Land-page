@@ -42,5 +42,5 @@ export const IconNavagiton = styled(BiLogInCircle)`
 `
 export const Title = styled.h1`
   font-size: 3rem;
-  padding: 40px 0px;
+  padding: 40px 0;
 `
