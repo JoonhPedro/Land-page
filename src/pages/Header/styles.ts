@@ -36,6 +36,7 @@ export const Nav = styled.nav`
     padding: 10px;
     gap: 20px;
     background-color: #263238;
+    background: #263238;
     backdrop-filter: blur(5px);
   }
 `
@@ -48,7 +49,6 @@ export const NavLink = styled.a`
   color: white;
   text-decoration: none;
   font-size: 1rem;
-  color: black;
   cursor: pointer;
   transition: 0.2s ease;
 
