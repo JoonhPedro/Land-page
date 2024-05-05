@@ -39,4 +39,11 @@ export const Icone = styled(HiArrowSmUp)`
   top: 12px;
   left: 11.5px;
   color: white;
+
+  @media (max-width: 768px) {
+    position: relative;
+    top: 7px;
+    left: 7.4px;
+  }
+
 `
