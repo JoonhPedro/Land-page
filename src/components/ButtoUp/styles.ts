@@ -45,4 +45,5 @@ export const Icone = styled(HiArrowSmUp)`
     top: 7px;
     left: 7.4px;
   }
+
 `
