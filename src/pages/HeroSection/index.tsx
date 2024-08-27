@@ -14,7 +14,7 @@ export function HeroSection() {
             Where to grow your business as a photographer: site or social media?
           </InfosText>
           <ButtonStyle variant="primary">
-            <a href="https://www.google.com/test"> Register</a>
+            <a href="dt-money-topaz-two.vercel.app"> Register</a>
           </ButtonStyle>
         </Infos>
         <Illustration src={Illustrationimg} />
