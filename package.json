@@ -22,19 +22,19 @@
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
-    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
-    "@storybook/addon-onboarding": "^1.0.11",
-    "@storybook/blocks": "^7.6.17",
-    "@storybook/react": "^7.6.17",
-    "@storybook/react-vite": "^7.6.17",
+    "@storybook/addon-onboarding": "^10.3.3",
+    "@storybook/blocks": "^8.6.14",
+    "@storybook/react": "^10.3.3",
+    "@storybook/react-vite": "^10.3.3",
     "@storybook/test": "^7.6.17",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -43,6 +43,6 @@
     "storybook": "^10.3.3",
     "styled-components": "^6.1.8",
     "typescript": "^5.2.2",
-    "vite": "^5.1.7"
+    "vite": "^8.0.3"
   }
 }
